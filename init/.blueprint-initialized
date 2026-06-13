@@ -1,0 +1,15 @@
+# init/.blueprint-initialized — written by init.py on successful run.
+# Tracked by git; read by init/guard.sh and init_doctor.py.
+
+[meta]
+version = "0.1.0"
+date    = "2026-06-12"
+
+[answers]
+package_name = "blueprint_dryrun"
+repo_name = "blueprint-dryrun"
+app_name = "bpd"
+app_name_upper = "BPD"
+author = "Steve Morin"
+email = "steve.morin@gmail.com"
+owner = "smorinlabs"

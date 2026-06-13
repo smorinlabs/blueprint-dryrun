@@ -1,0 +1,7 @@
+[answers]
+package_name = "blueprint_dryrun"
+repo_name = "blueprint-dryrun"
+app_name = "bpd"
+author = "Steve Morin"
+email = "steve.morin@gmail.com"
+owner = "smorinlabs"

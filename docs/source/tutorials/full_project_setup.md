@@ -17,8 +17,8 @@ Before you begin, ensure you have the following installed on your system:
 First, clone the Py Launch Blueprint repository to your local machine:
 
 ```bash
-git clone https://github.com/smorinlabs/py-launch-blueprint.git
-cd py-launch-blueprint
+git clone https://github.com/smorinlabs/blueprint-dryrun.git
+cd blueprint-dryrun
 ```
 
 ### 2. Install Dependencies
@@ -92,9 +92,9 @@ just lint
 ## Project Commands
 
 - **Setup**: `just setup` or `uv pip install --editable ".[dev]"`
-- **Format**: `just format` or `uvx ruff format py_launch_blueprint/`
-- **Lint**: `just lint` or `uvx ruff check py_launch_blueprint/`
-- **Type check**: `just typecheck` or `uv run ty check src/py_launch_blueprint/`
+- **Format**: `just format` or `uvx ruff format blueprint_dryrun/`
+- **Lint**: `just lint` or `uvx ruff check blueprint_dryrun/`
+- **Type check**: `just typecheck` or `uv run ty check src/blueprint_dryrun/`
 - **Test all**: `just test` or `uvx --with-editable . pytest`
 - **Test single**: `uvx --with-editable . pytest tests/test_file.py::test_name`
 - **All checks**: `just check`
